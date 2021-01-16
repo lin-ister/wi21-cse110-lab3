@@ -107,17 +107,25 @@ My name is Brian. I am a 4th year Computer Science undergraduate who transferred
 <label for="name">Or type the name of the shoe if not listed:</label>
 
   <input type="text" id="name" name="name" required
-         minlength="1" maxlength="100" size="100000">
+         minlength="1" maxlength="50" size="50">
    <input type="reset" value="Reset">
 </p>
 
+<label for="site-search">Search for it if you forgot the name:</label>
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+
+<button>Search</button>
+
 <p>
-<label for="tentacles">And enter dollars how much you would pay (numbers only)</label>
+<label for="dollars">And enter dollars how much you would pay (numbers only)</label>
 
 <input type="number" id="dollars" name="dollars"
        min="0" max="100000">
 
 </p>
+
+
 
 <p>But so far I only have learned to code:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;iostream&gt;
