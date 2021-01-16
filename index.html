@@ -163,14 +163,18 @@ int main(){
 }
 </code></pre></div></div>
 
-<script>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+  Your browser does not support the HTML canvas tag.</canvas>
+  
+  <script>
   var c = document.getElementById("myCanvas");
   var ctx = c.getContext("2d");
   ctx.font = "30px Arial";
-  ctx.fillText("Hello World", 10, 50);
+  ctx.fillText("Hello World",10,50);
   </script>
 
 <p>But once I figure out how to code more, I will be able to properly begin my app construction.</p>
+
 
 <label for="programming-language">Choose a programming language from a list of ones that I know:</label>
 <select id="programming-language">
