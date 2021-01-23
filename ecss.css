@@ -19,12 +19,15 @@ h1 {
 h2{
     font-family: 'Hachi Maru Pop', cursive;
 }
-/* rgb */
-h3{
-    color: rgb(red, green, blue)
+/* rgb, grouping */
+h1, h2, h3{
+    color: rgb(#00AAAA, green, yellow)
 }
-/* #FFFFF, a:active  */
+/* #FFFFF, pseud  */
 a:active{
+    color: #ff0;
+}
+a:hover{
     color: #999898;
 }
 /* rgba, short margin, shorthand padding  */
