@@ -27,7 +27,7 @@ h2.h2style{
 }
 
 /* rgb, grouping */
-h1, h2, h3{
+h1, h3{
     color: rgb(#00AAAA, green, yellow);
 }
 
@@ -87,3 +87,42 @@ p.pinblock{
 p.box {
     display: flex;
  }
+
+p.container {
+    display: grid | inline-grid;
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+ }
+
+p.item-a {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+ }
+
+ p.item-b {
+    grid-column-start: 1;
+    grid-column-end: span col4-start;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+ }
+
+ p > input{
+     color: purple;
+ }
+ p i{
+    color: orange;
+}
+p ~ i{
+    color: lightgreen;
+}
+
+p + em{
+    font-size: larger;
+}
+
+p + em{
+    font-size: larger;
+}
+

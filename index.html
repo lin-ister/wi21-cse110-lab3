@@ -14,6 +14,70 @@
     background-color: lightblue;
   }
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.item1 {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.item2 {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.item3 {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.item4 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.item5 {
+  grid-column: 2;
+  grid-row: 4;
+}
+.item6 {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .cards img {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 25vw;
+  }
+
 </style>
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
@@ -320,6 +384,34 @@ Enter here:
     This browser does not support the HTML5 video element.
 </video>
 
+<div class="grid-container">
+  <div class="item1">shoes</div>
+  <div class="item2">feet</div>
+  <div class="item3">toes</div>  
+  <div class="item4">leg</div>
+  <div class="item5">palm</div>
+  <div class="item5">nails</div>
+</div>
+
+<main class="cards">
+  <img src="/files/pic1.jpg" alt="Sample photo">
+  <img src="/files/pic2.jpg" alt="Sample photo">
+  <img src="/files/pic3.jpg" alt="Sample photo">
+  <img src="/files/pic4.jpg" alt="Sample photo">
+  <img src="/files/pic5.jpg" alt="Sample photo">
+  <img src="/files/pic6.jpg" alt="Sample photo">
+</main>
+
+
+
+<main class="cards">
+  <img src="/pix/samples/1m.jpg" alt="Sample photo">
+  <img src="/pix/samples/24m.jpg" alt="Sample photo">
+  <img src="/pix/samples/9m.jpg" alt="Sample photo">
+  <img src="/pix/samples/12m.jpg" alt="Sample photo">
+  <img src="/pix/samples/6m.jpg" alt="Sample photo">
+  <img src="/pix/samples/25m.jpg" alt="Sample photo">
+</main>
 <p>
 
 <nav class="crumbs">
