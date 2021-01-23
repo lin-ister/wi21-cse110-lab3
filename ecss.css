@@ -7,6 +7,10 @@ h1 {
     margin-left: 20px;
 }
 
+h2{
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +21,11 @@ p {
     background-color: yellow;
 }
 
+@font-face{
+    font-family: Fraunces;
+    src: Fra
+}
+
 a[target] {
-    font-size: 30pt;
+    font-family: 'Lato', sans-serif;
 }
