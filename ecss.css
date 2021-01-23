@@ -14,7 +14,7 @@ h1 {
 }
 /* 3rd party font */
 @font-face{
-    font-famil
+    font-family: 'Hachi Maru Pop', cursive;
     src: url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 }
 src: url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
@@ -83,3 +83,7 @@ p.pblock{
 p.pinblock{
     display: inline-block;
 }
+
+p.box {
+    display: flex;
+ }
