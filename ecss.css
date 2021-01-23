@@ -17,3 +17,6 @@ p {
     background-color: yellow;
 }
 
+a[target] {
+    font-size: 30pt;
+}
