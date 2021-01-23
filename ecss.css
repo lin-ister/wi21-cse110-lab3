@@ -43,7 +43,7 @@ h3{
   padding-bottom: 50px;
   padding-left: 80px;
   text-align: center;
-  max-width: 150px;
+  max-width: 50%;
 }
 
 /* #FFFFF, #FFF, pseud-class */
@@ -60,6 +60,16 @@ a:hover{
 /* hsla  */
 p {
     background-color: hsla(0, 67%, 60%, 0.932);
+}
+
+p.static{
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+p.sticky{
+    position: sticky;
+    border: 3px solid #3b21ad;
 }
 
 a[target] {
