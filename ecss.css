@@ -9,8 +9,10 @@ h1 {
     margin-left: 20px;
 }
 /* 3rd party font */
+@import url(https://fonts.google.com/specimen/Hachi+Maru+Pop?selection.family=Hachi+Maru+Pop&sidebar.open=true);
 h2{
-   font-family: 'Potta One', cursive; 
+    font-family: 'Hachi Maru Pop', cursive; 
+   
 }
 /* rgb */
 h3{
