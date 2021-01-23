@@ -16,9 +16,14 @@ h1 {
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 </style>
 
-h2{
+h2.h2style{
     font-family: 'Hachi Maru Pop', cursive;
+    border-style: solid;
+    border-color: lightblue;
+    border-width: thin;
+    border-radius: 25px;
 }
+
 /* rgb, grouping */
 h1, h2, h3{
     color: rgb(#00AAAA, green, yellow)
